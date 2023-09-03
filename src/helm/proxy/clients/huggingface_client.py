@@ -29,6 +29,7 @@ from threading import Lock
 _KNOWN_MODEL_ALIASES: Dict[str, str] = {
     "huggingface/gpt2": "gpt2",
     "huggingface/starcoder": "bigcode/starcoder",
+    "huggingface/bloomz-7b1-mt": "bigscience/bloomz-7b1-mt",
 }
 
 

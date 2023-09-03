@@ -409,6 +409,11 @@ ALL_MODELS = [
     # Copy these models (in HuggingFace format) to ./huggingface_models
     Model(
         group="huggingface",
+        name="huggingface/bloomz-7b1-mt",
+        tags=[TEXT_MODEL_TAG, FULL_FUNCTIONALITY_TEXT_MODEL_TAG, LOCAL_HUGGINGFACE_MODEL_TAG],
+    ),
+    Model(
+        group="huggingface",
         name="huggingface/llama-7b",
         tags=[TEXT_MODEL_TAG, FULL_FUNCTIONALITY_TEXT_MODEL_TAG, LOCAL_HUGGINGFACE_MODEL_TAG],
     ),
